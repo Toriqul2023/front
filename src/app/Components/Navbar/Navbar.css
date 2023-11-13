@@ -1,0 +1,15 @@
+header{
+    background-color: #0B0D0C;
+}
+.navbar{
+    width: 70%;
+   
+}
+.link{
+    text-decoration: none;
+    color:white
+}
+.link:hover{
+    text-decoration: line-through;
+    color: white;
+}

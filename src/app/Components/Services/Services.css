@@ -1,0 +1,112 @@
+.container{
+    width:70%
+    
+}
+.content-img{
+    display: block;
+    margin:20px auto;
+    width: 90px;
+    height: auto;
+}
+.box2{
+    text-align: center;
+   padding: 40px;
+    position: relative;
+    transition: all .3s;
+   z-index: 1;
+    
+    overflow: hidden;
+   
+}
+.hover-edit{
+    position: absolute;
+    bottom: -32%;
+    left: 50%;
+    z-index: -1;
+}
+
+.sample{
+    height: 400px;
+    width: 400px;
+    background: transparent;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.circle{
+    border-radius: 50%;
+    position: absolute;
+    
+    transition: all .3s;
+}
+.round-1{
+    height: 100px;
+    width: 100px;
+    
+   z-index: 5;
+    display: inline-block;
+    background: #5fdb97; 
+
+    
+}
+.round-2{
+    height: 200px;
+    width: 200px;
+    z-index: 4;
+    background: #4dd78b; 
+    
+   
+}
+
+.round-3{
+    height: 300px;
+    width: 300px;
+    background: #39d27e; 
+    z-index: 3;
+    
+  
+}
+.round-4{
+    height: 100px;
+    width: 100px;
+    z-index: 2;
+    background: #39e285; 
+    
+  
+}
+.off .round-1 {
+    background-color: #0B0D0E
+}
+.off .round-2 {
+    background-color: #0B0D0E
+}
+.off .round-3 {
+    background-color: #0B0D0E
+}
+.off .round-4 {
+    background-color: #0B0D0E
+}
+
+
+.hovering:hover > .hover-edit> .sample> .round-1{
+    background: #5fdb97; 
+
+
+}
+.hovering:hover > .hover-edit> .sample> .round-2{
+    background: #4dd78b; 
+
+
+}
+.hovering:hover > .hover-edit> .sample> .round-3{
+    background: #39d27e; 
+
+
+}
+.hovering:hover > .hover-edit> .sample> .round-4{
+     background: #39e285; 
+
+
+}
