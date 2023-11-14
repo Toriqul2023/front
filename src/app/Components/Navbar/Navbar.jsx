@@ -17,11 +17,11 @@ const Navbar = () => {
         <li>
           <a>Parent</a>
           <ul className="p-2">
-            <li><a href='https://www.facebook.com/mohammad.toriqul.toriq'>Submenu 1</a></li>
-            <li><a href='https://www.facebook.com/mohammad.toriqul.toriq'>Submenu 2</a></li>
+            <li><Link href='https://www.facebook.com/mohammad.toriqul.toriq'>Submenu 1</Link></li>
+          
           </ul>
         </li>
-        <li><a href='https://www.facebook.com/mohammad.toriqul.toriq'>Item 3</a></li>
+        
       </ul>
     </div>
     <Link href={'/'} className="btn btn-ghost normal-case text-xl "><span className='text-green-500 text-2xl font-bold'>ToriqulIslam</span></Link>
