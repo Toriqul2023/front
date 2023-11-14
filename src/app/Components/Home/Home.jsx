@@ -24,7 +24,7 @@ const Home = () => {
          
         </div>
         <div className='lg:justify-self-end '>
-        <Image id='img' src={HEROIMAGE} width={500} height={500}/>
+        <Image id='img' src={HEROIMAGE} alt='toriqul' loading='lazy' width={500} height={500}/>
         </div>
       </div>
     </main>

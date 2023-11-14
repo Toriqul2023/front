@@ -8,7 +8,7 @@ const Portfolio = () => {
             <div className="row grid lg:grid-cols-2 justify-between items-center mb-5">
                 <div>
                     <p className='text-[#08D665] text-xl'>EXPERIENCE</p>
-                    <h3 className='lg:text-5xl text-2xl font-bold'>EXPERIENCE AND <span className='text-[#08D665]'> SKILL</span></h3>
+                    <h3 className='text-2xl lg:text-5xl  font-bold'>EXPERIENCE AND <span className='text-[#08D665]'> SKILL</span></h3>
                 </div>
                 <div className='flex px-[20px] items-center'>
                     <div className="box my-5 mx-4 h-[60px] hidden lg:block w-[10px] bg-[#08D665]"></div>
