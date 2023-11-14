@@ -6,19 +6,19 @@ const Progress = () => {
        <div className="container mx-auto py-4 ">
         <div className="row grid lg:grid-cols-4 gap-3 justify-center">
           <div className='p-5'>
-          <div className="my-4 radial-progress"  id="alb1" aria-labelledby="aib1" name='progress-1' style={{ "--value": "70", "--size": "10rem", "--thickness": "10px","color":"#08D665" }} role="progressbar"><span className='text-4xl text-white'>70%</span></div>
+          <div className="my-4 radial-progress"  id="alb1" aria-label="aib1" name='progress-1' style={{ "--value": "70", "--size": "10rem", "--thickness": "10px","color":"#08D665" }} role="progressbar"><span className='text-4xl text-white'>70%</span></div>
           </div>
           <div>
-          <div className="my-4 radial-progress" id="alb2" aria-labelledby="aib2" name='progress-2' style={{ "--value": "65", "--size": "10rem", "--thickness": "10px","color":"#08D665" }} role="progressbar">
+          <div className="my-4 radial-progress" id="alb2" aria-label="aib2" name='progress-2' style={{ "--value": "65", "--size": "10rem", "--thickness": "10px","color":"#08D665" }} role="progressbar">
             <span className='text-4xl text-white'>65%</span></div>
           </div>
           <div>
-          <div className="my-4 radial-progress"  id="alb3" aria-labelledby="aib3" name='progress-3' style={{ "--value": "80", "--size": "10rem", "--thickness": "10px","color":"#08D665" }} role="progressbar">
+          <div className="my-4 radial-progress"  id="alb3" aria-label="aib3" name='progress-3' style={{ "--value": "80", "--size": "10rem", "--thickness": "10px","color":"#08D665" }} role="progressbar">
             <span className='text-4xl text-white'>80%</span></div>
           </div>
           <div>
           <div 
-          className="my-4 radial-progress" id="alb4" aria-labelledby="aib4" name='progress-4' 
+          className="my-4 radial-progress" id="alb4" aria-label="aib4" name='progress-4' 
           style={{ "--value": "60", "--size": "10rem", "--thickness": "10px","color":"#08D665" }} role="progressbar">
             <span className='text-4xl text-white'>60%</span></div>
           </div>
