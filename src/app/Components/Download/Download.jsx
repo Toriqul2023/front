@@ -7,7 +7,7 @@ const Download = () => {
           <main className=' py-[100px] shadow-neutral-800 '>
     <div className="custom grid lg:grid-cols-2 gap-2  mx-auto items-center  text-white">
         <div className=''>
-        <Image src='https://quomodosoft.com/html/glint/assets/img/about/about1.png' width={500} height={500}/>
+        <Image alt='toriqul-download' loading='lazy' src='https://quomodosoft.com/html/glint/assets/img/about/about1.png' width={500} height={500}/>
      
          
         </div>

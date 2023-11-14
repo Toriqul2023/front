@@ -5,7 +5,7 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <>
-      <header className='lg:h-[200px]'>
+      <header className='lg:h-[250px]'>
       <div className="navbar text-white  mx-auto">
   <div className="navbar-start">
     <div className="dropdown">

@@ -7,10 +7,10 @@ main{
 .custom{
     width: 70%;
 }
-#img{
+/* #img{
     width: 529px;
     height: 752px;
-}
+} */
 .solar{
     display: inline-block;
     position: absolute;
