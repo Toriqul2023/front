@@ -20,7 +20,7 @@ const Contact = () => {
          <div className="w-[70%] mx-auto">
             <div className="row grid lg:grid-cols-3 gap-3 items-center lg:items-start lg:justify-between justify-center">
                 <div className='px-3 lg:col-span-2 self-center'>
-                  <h3 className='lg:text-6xl text-3xl font-bold my-3'>GET IN TOUCH</h3>
+                  <h1 className='lg:text-6xl text-3xl font-bold my-3'>GET IN TOUCH</h1>
                   <p className='text-[18px] my-2 hidden lg:block'>Please Provide me your information . It will be helpful for me to contact with you</p>
                 </div>
                 <div>
