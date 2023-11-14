@@ -6,18 +6,20 @@ const Progress = () => {
        <div className="container mx-auto py-4 ">
         <div className="row grid lg:grid-cols-4 gap-3 justify-center">
           <div className='p-5'>
-          <div className="my-4 radial-progress" id="alb" aria-labelledby="labeldiv" name='progress-1' style={{ "--value": "70", "--size": "10rem", "--thickness": "10px","color":"#08D665" }} role="progressbar"><span className='text-4xl text-white'>70%</span></div>
+          <div className="my-4 radial-progress"  id="alb" aria-labelledby="labeldiv" name='progress-1' style={{ "--value": "70", "--size": "10rem", "--thickness": "10px","color":"#08D665" }} role="progressbar"><span className='text-4xl text-white'>70%</span></div>
           </div>
           <div>
           <div className="my-4 radial-progress" id="alb" aria-labelledby="labeldiv" name='progress-1' style={{ "--value": "65", "--size": "10rem", "--thickness": "10px","color":"#08D665" }} role="progressbar">
             <span className='text-4xl text-white'>65%</span></div>
           </div>
           <div>
-          <div className="my-4 radial-progress" id="alb" aria-labelledby="labeldiv" name='progress-1' style={{ "--value": "80", "--size": "10rem", "--thickness": "10px","color":"#08D665" }} role="progressbar">
+          <div className="my-4 radial-progress"  id="alb" aria-labelledby="labeldiv" name='progress-1' style={{ "--value": "80", "--size": "10rem", "--thickness": "10px","color":"#08D665" }} role="progressbar">
             <span className='text-4xl text-white'>80%</span></div>
           </div>
           <div>
-          <div className="my-4 radial-progress"id="alb" aria-labelledby="labeldiv" name='progress-1' style={{ "--value": "60", "--size": "10rem", "--thickness": "10px","color":"#08D665" }} role="progressbar">
+          <div 
+          className="my-4 radial-progress"id="alb" aria-labelledby="labeldiv" name='progress-1' 
+          style={{ "--value": "60", "--size": "10rem", "--thickness": "10px","color":"#08D665" }} role="progressbar">
             <span className='text-4xl text-white'>60%</span></div>
           </div>
          
