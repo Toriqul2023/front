@@ -26,14 +26,14 @@ const Progress = () => {
         </div>
         <div className="row grid lg:grid-cols-2 justify-between items-center mb-5 text-white">
                 <div>
-                    <p className='text-[#08D665] text-xl '>WHAT WE DO</p>
-                    <h3 className='lg:text-5xl text-3xl font-bold'>EXPERIENCE AND <span className='text-[#08D665]'> SKILL</span></h3>
+                    <p className='text-[#08D665] text-xl'>EXPERIENCE</p>
+                    <h1 className='text-2xl lg:text-5xl  font-bold'>EXPERIENCE AND <span className='text-[#08D665]'> SKILL</span></h1>
                 </div>
-                <div className='flex hidden lg:block px-[20px] items-center'>
-                    <div className="box my-5 mx-4 h-[60px] w-[10px] bg-[#08D665]"></div>
+                <div className='flex px-[20px] items-center'>
+                    <div className="box my-5 mx-4 h-[60px] hidden lg:block w-[10px] bg-[#08D665]"></div>
                     
                         <div>
-                        <p className='place-self-center my-3 text-[20px]'> Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Sint Ratione Reprehenderit, Error Qui Enim Sit Ex Provident</p>
+                        <p className='place-self-center my-3 text-[20px] hidden lg:block'> Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Sint Ratione Reprehenderit, Error Qui Enim Sit Ex Provident</p>
                         </div>
                     
                 </div>

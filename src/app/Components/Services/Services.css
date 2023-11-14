@@ -68,14 +68,32 @@
     
   
 }
-.round-4{
-    height: 100px;
-    width: 100px;
-    z-index: 2;
-    background: #39e285; 
+
+@media only screen and (max-width: 600px) {
+    .round-1{
+        height: 154px;
+        width: 227px;
+        
+      
     
-  
-}
+        
+    }
+    .round-2{
+        height: 245px;
+        width: 300px;
+       
+        
+       
+    }
+    
+    .round-3{
+        height: 337px;
+        width: 393px;
+       
+        
+      
+    }
+  }
 .off .round-1 {
     background-color: #0B0D0E
 }
@@ -83,9 +101,6 @@
     background-color: #0B0D0E
 }
 .off .round-3 {
-    background-color: #0B0D0E
-}
-.off .round-4 {
     background-color: #0B0D0E
 }
 
@@ -102,11 +117,6 @@
 }
 .hovering:hover > .hover-edit> .sample> .round-3{
     background: #39d27e; 
-
-
-}
-.hovering:hover > .hover-edit> .sample> .round-4{
-     background: #39e285; 
 
 
 }

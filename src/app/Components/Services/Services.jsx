@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <main className='services bg-[#0B0D0E]'>
          <div className="container mx-auto">
-              <div className="row grid lg:grid-cols-3 gap-3 items-center justify-between p-5 ">
+              <div className="row grid lg:grid-cols-3 gap-3 items-center justify-between lg:p-5 ">
                   <div className='box2 shadow-lg shadow-black text-white hovering'>
                     <div className='text-content text-center p-5 my-4'>
                        <Image src={Service1} width={500} height={500} loading='lazy' alt='service1' className='content-img' />
@@ -25,7 +25,7 @@ const Services = () => {
                         </div>
                          <div className=" circle round-2"></div>
                          <div className=" circle round-3"></div>
-                         <div className=" circle round-4"></div>
+                         
                         </div>
                     </div>
                       
@@ -48,7 +48,7 @@ const Services = () => {
                         </div>
                          <div className=" circle round-2"></div>
                          <div className=" circle round-3"></div>
-                         <div className=" circle round-4"></div>
+                         
                         </div>
                     </div>
                       
@@ -71,7 +71,7 @@ const Services = () => {
                         </div>
                          <div className=" circle round-2"></div>
                          <div className=" circle round-3"></div>
-                         <div className=" circle round-4"></div>
+                         
                         </div>
                     </div>
                       

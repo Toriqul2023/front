@@ -20,19 +20,19 @@ const Portfolio = () => {
                 </div>
             </div>
             <div className="portfolio grid lg:grid-cols-4 gap-4 my-4">
-                <div className='bg-[#0B0D0E] p-5 shadow-xl shadow-black leading-8 hover:shadow-lg'> 
+                <div className='bg-[#0B0D0E] lg:p-5 p-2 shadow-xl shadow-black leading-8 hover:shadow-lg'> 
                     <p>2011-2014</p>
                     <h2 className='text-[#08D665] text-[20px] text-900 my-3'>GOOGLE COOPERATION</h2>
                     <h3 className='text-justify'>All You Need To Do Your Best Work Together In One Package Works Seamlessly Computer</h3>
 
                 </div>
-                <div className='bg-[#0B0D0E] p-5 shadow-lg shadow-black leading-8 hover:shadow-lg'> 
+                <div className='bg-[#0B0D0E] lg:p-5 p-2  shadow-lg shadow-black leading-8 hover:shadow-lg'> 
                     <p>2011-2014</p>
                     <h2 className='text-[#08D665] text-[20px] text-900 my-3'>GOOGLE COOPERATION</h2>
                     <h3 className='text-justify'>All You Need To Do Your Best Work Together In One Package Works Seamlessly Computer</h3>
 
                 </div>
-                <div className='bg-[#0B0D0E] p-5 shadow-lg shadow-black leading-8 hover:shadow-lg'> 
+                <div className='bg-[#0B0D0E] lg:p-5 p-2  shadow-lg shadow-black leading-8 hover:shadow-lg'> 
                     <p>2011-2014</p>
                     <h2 className='text-[#08D665] text-[20px] text-900 my-3'>GOOGLE COOPERATION</h2>
                     <h3 className='text-justify'>All You Need To Do Your Best Work Together In One Package Works Seamlessly Computer</h3>
