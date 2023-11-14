@@ -1,27 +1,72 @@
-import React from 'react'
+'use client'
+
+import React, { useRef, useState } from 'react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper/modules';
 
 const Progress = () => {
   return (
     <div className='bg-[#0B0D0E]'>
        <div className="container mx-auto py-4 ">
-        <div className="row grid lg:grid-cols-4 gap-3 justify-center">
+        <div className="row ">
           <div className='p-5'>
-          <div className="my-4 radial-progress"  id="alb1" aria-label="aib1" name='progress-1' style={{ "--value": "70", "--size": "10rem", "--thickness": "10px","color":"#08D665" }} role="progressbar"><span className='text-4xl text-white'>70%</span></div>
+          <Swiper
+        slidesPerView={4}
+        breakpoints={{
+          // when window width is >= 640px
+          300: {
+            width:300,
+            slidesPerView: 1,
+          },
+          // when window width is >= 768px
+         
+        }}
+      
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className=" grid grid-cols-4 gap-3 justify-center"
+      >
+          <SwiperSlide>
+         <div>
+          <div className="my-4 radial-progress" id="alb1" aria-label="aib1" name='progress-1' style={{ "--value": "25", "--size": "10rem", "--thickness": "10px","color":"#08D665" }} role="progressbar">
+            <span className='text-4xl text-white'>65%</span></div>
           </div>
-          <div>
+
+         </SwiperSlide>
+         <SwiperSlide>
+         <div>
           <div className="my-4 radial-progress" id="alb2" aria-label="aib2" name='progress-2' style={{ "--value": "65", "--size": "10rem", "--thickness": "10px","color":"#08D665" }} role="progressbar">
             <span className='text-4xl text-white'>65%</span></div>
           </div>
-          <div>
+
+         </SwiperSlide>
+         <SwiperSlide>
+         <div>
           <div className="my-4 radial-progress"  id="alb3" aria-label="aib3" name='progress-3' style={{ "--value": "80", "--size": "10rem", "--thickness": "10px","color":"#08D665" }} role="progressbar">
             <span className='text-4xl text-white'>80%</span></div>
           </div>
-          <div>
+         </SwiperSlide>
+
+         <SwiperSlide> 
+         <div>
           <div 
           className="my-4 radial-progress" id="alb4" aria-label="aib4" name='progress-4' 
           style={{ "--value": "60", "--size": "10rem", "--thickness": "10px","color":"#08D665" }} role="progressbar">
             <span className='text-4xl text-white'>60%</span></div>
           </div>
+         </SwiperSlide>
+        </Swiper>
+       
+         
+         
+         
+        
          
         </div>
         <div className="row grid lg:grid-cols-2 justify-between items-center mb-5 text-white">
@@ -41,6 +86,7 @@ const Progress = () => {
         
        </div>
 
+    </div>
     </div>
   )
 }
